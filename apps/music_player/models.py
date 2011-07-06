@@ -16,6 +16,7 @@ class SongRequest(models.Model):
     """
     song = models.ForeignKey('music_db.Song')
     requester = models.ForeignKey(User, blank=True, null=True)
+    twitter = models.CharField(max_length=1,blank=True, null=True)
     # Does this song meet the 'upcoming' classification?
     is_upcoming_song = models.BooleanField(default=False)
     # Does this song meet the 'good' classification?

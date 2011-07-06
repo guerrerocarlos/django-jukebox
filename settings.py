@@ -47,7 +47,7 @@ CLI_PLAYER_COMMAND_STR = ['mplayer', '-really-quiet', '-af', 'volume']
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
-DJANGO_SERVE_MEDIA = False
+DJANGO_SERVE_MEDIA = True
 
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
@@ -161,6 +161,7 @@ INSTALLED_APPS = (
     'apps.music_player',
     'apps.juke_daemon',
     'apps.juketunes_ui',
+    'apps.remote_control',
 )
 
 """
