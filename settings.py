@@ -45,7 +45,7 @@ ALLOW_ANON_REQUESTS = False
 # A list formatted for subprocess.call().
 CLI_PLAYER_COMMAND_STR = ['mplayer', '-really-quiet', '-af', 'volume']
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 DJANGO_SERVE_MEDIA = True
 
