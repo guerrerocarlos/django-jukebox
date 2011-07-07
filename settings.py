@@ -43,7 +43,9 @@ ALLOW_ANON_REQUESTS = False
 
 # The command used to have your CLI player play an audio file.
 # A list formatted for subprocess.call().
-CLI_PLAYER_COMMAND_STR = ['mplayer', '-really-quiet', '-af', 'volume']
+#CLI_PLAYER_COMMAND_STR = ['mplayer', '-really-quiet', '-af', 'volume']
+#for Mac:
+CLI_PLAYER_COMMAND_STR = ['afplay']
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG

@@ -21,6 +21,7 @@ from apps.juke_daemon import daemon as juke_daemon
 
 #with daemon.DaemonContext():
 print "Starting jukebox daemon..."
-with daemon.DaemonContext():
+#with daemon.DaemonContext():
+while True:
     juke_daemon.daemon_loop()
 print "django_jukebox daemon shutdown."

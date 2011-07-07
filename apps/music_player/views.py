@@ -32,7 +32,7 @@ def music_player_main(request):
     }
 
     context_instance = RequestContext(request)
-    return render_to_response('index.html', pagevars, 
+    return render_to_response('twitter.html', pagevars, 
                               context_instance)
     
 def process_song_upload(request):

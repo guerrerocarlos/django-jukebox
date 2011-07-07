@@ -1,6 +1,6 @@
 from django.conf.urls.defaults import *
 
-urlpatterns = patterns('apps.music_player.views',
+urlpatterns = patterns('apps.remote_control.views',
     url(r'^$', 'music_player_main', 
         name='music_player_main'),
     url(r'^song_queue/$', 'display_song_queue', 
